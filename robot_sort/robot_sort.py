@@ -107,7 +107,7 @@ class SortingRobot:
         # * You may define robot helper methods, as long as they follow all the rules.
 
 
-        # Very beginning of sort call, pick up the first item, and put the light on so we can go into the loop.
+        # Very beginning of sort call, put the light on so we can go into the loop.
         self.set_light_on()
 
         while self.light_is_on(): # Did we change something? If so, iterate again.
